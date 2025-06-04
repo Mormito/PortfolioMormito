@@ -24,3 +24,11 @@ Pretendo impletementar a área de projetos, mas estou com dificuldades.
                             <p class="text-sm font-light text-white">Feito em python, com imports: scapy, requests e threading.</p>
                         </div>
 </div>
+
+
+
+save:
+
+            <img class="border-2 border-emerald-400 rounded-full w-1/4 h-1/4 md:w-1/6 md:h-1/6 lg:w-1/10 lg:h-1/10" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png">
+
+            <h1 class="text-2xl lg:text-3xl text-emerald-400 mt-2 lg:mt-4 font-bold">Olá, me chame de Mormito!</h1>
