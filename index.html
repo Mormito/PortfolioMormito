@@ -10,17 +10,17 @@
 
     <!-- Entrada | Foto + Intro -->
     <div class="flex flex-col sm:flex-row w-full h-full justify-center items-center align-middle p-2 md:p-5 lg:p-10 gap-5 lg:gap-10 mt-5 mb-5">
-        <img class="w-1/3 h-1/3 lg:w-1/4 lg:h-1/4" src="imgs/me-resized.jpg">
+        <img class="w-2/5 h-2/5 lg:w-1/4 lg:h-1/4" src="imgs/me-resized.jpg">
 
         <div class="flex flex-col justify-center items-center lg:items-start align-middle">
-            <h1 class="text-sm md:text-3xl lg:text-5xl text-stone-200 font-bold">Olá, me chamo Guilherme <a class="text-blue-600">Mormito</a></h1>
-            <h2 class="text-sm md:text-2xl lg:text-4xl text-stone-200 font-thin">Desenvolvedor back-end</h2>
+            <h1 class="text-lg md:text-3xl lg:text-5xl text-white font-bold">Olá, me chamo Guilherme <a class="text-blue-600">Mormito</a></h1>
+            <h2 class="text-md md:text-2xl lg:text-4xl text-white font-thin">Desenvolvedor back-end</h2>
         </div>
     </div>
     <!-- Entrada | Fim-->
 
     <!-- Sobre mim | Três paragrafos -->
-    <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-stone-200">
+    <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-white">
 
         <div class="flex flex-col w-3/4 h-3/4 lg:w-1/2 lg:h-1/2 justify-start items-start align-middle gap-2 lg:gap-4">
 
@@ -38,10 +38,10 @@
     <!-- Tecnologias | Dois fieldsets-->
      <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10">
 
-        <h3 class="text-sm md:text-xl lg:text-3xl text-zinc-200 font-bold">Tecnologias estudadas até o momento</h3>
+        <h3 class="text-xl md:text-xl lg:text-3xl text-white font-bold">Tecnologias estudadas</h3>
         
         <div class="flex flex-col md:flex-row lg:flex-row w-full h-full justify-center items-center align-middle gap-4 p-4 lg:p-6">
-            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-blue-600/90 text-sm md:text-xl lg:text-2xl text-zinc-200 font-bold">
+            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-blue-600/90 text-sm md:text-xl lg:text-2xl text-white font-bold">
                 <legend>Front-end</legend>
                         <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6 lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" alt="HTML">
             
@@ -52,7 +52,7 @@
                         <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/TailwindCSS-Dark.svg" alt="Tailwind">
             </fieldset>
             
-            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-blue-600/90 text-sm md:text-xl lg:text-2xl text-zinc-200 font-bold">
+            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-blue-600/90 text-sm md:text-xl lg:text-2xl text-white font-bold">
                 <legend>Back-end</legend>
                             <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Python-Dark.svg" alt="Python">
             
@@ -69,22 +69,48 @@
 
     <!-- Tecnologias | Fim-->
 
-    <!-- Zona portfólio 
-        <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-stone-200">
-            <div class="grid grid-cols-5 justify-center items-center align-middle gap-2 lg:gap-4">
-               # <h3 class="text-sm md:text-xl lg:text-2xl text-gray-950 font-bold">Portfólio</h3>
-                # <div class="flex flex-col md:flex-row w-3/4 h-3/4 lg:w-1/2 lg:h-1/2 justify-start items-start align-middle gap-2 lg:gap-4">
+    <!-- Zona portfólio  -->
+     <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-white">
 
-                <div class="flex flex-col w-full h-full align-middle text-left bg-gray-950 border-2 border-blue-500 rounded-xl p-5">
-                    <p id="title-item-01" class="text-md md:text-lg text-zinc-200 font-bold">BMR-Calculator</p>
-                    <p id="desc-item-01" class="text-sm md:text-md text-zinc-200">Esse site é capaz de calcular o gasto calórico basal com base nas informações: altura, peso, idade. Também é capaz de calcular modalidades de dieta como bulking e cutting.</p>
-                    <img src="">
-                </div>
+        <h3 class="text-xl md:text-xl lg:text-3xl text-gray-950 font-bold text-center">Projetos desenvolvidos</h3>
 
+        <div id="portGrid" class="grid grid-cols-1 md:grid-cols-3 w-full h-full md:w-3/4 md:h-3/4 mx-auto gap-3 p-4 lg:p-6">
+           
+            <div id="item-01-div" class="flex flex-col w-full h-full bg-gray-950 shadow-lg rounded-xl text-white p-3 md:p-5 gap-1 md:gap-2">
+               <p id="item-01-title" class="font-semibold">Calculadora Fitness - Status <b class="text-green-400 font-semibold">concluido</b></p>
+               <p id="item-01-desc" class="text-sm md:text-base">Uma calculadora de gasto calórico basal, TDEE e diversas modalidades de dieta.</p>
 
+               <div class="bg-cover">
+                   <img id="item-01-img" src="./imgs/item-01.png" class="">
+               </div>
 
-            </div>
+               <p id="item-01-tools" class="text-sm md:text-base">Linguagens: html5, tailwindcss, javascript.</p>
+           </div>
+
+            <div id="item-02-div" class="flex flex-col w-full h-full bg-gray-950 shadow-lg rounded-xl text-white p-3 md:p-5 gap-1 md:gap-2">
+               <p id="item-02-title" class="font-semibold">Sistema DDoS - Status <b class="text-yellow-400 font-semibold">incompleto</b></p>
+               <p id="item-02-desc" class="text-sm md:text-base">Um sistema de ataque DDoS desenvolvido para trabalho de conclusão de curso.</p>
+
+               <div class="bg-cover">
+                   <img id="item-02-img" src="./imgs/item-02.png" class="">
+               </div>
+
+               <p id="item-02-tools" class="text-sm md:text-base">Linguagens: python, bibliotecas: scapy e threading.</p>
+           </div>
+
+            <div id="item-03-div" class="flex flex-col w-full h-full bg-gray-950 shadow-lg rounded-xl text-white p-3 md:p-5 gap-1 md:gap-2">
+               <p id="item-03-title" class="font-semibold">Futuro Projeto - Status <b class="text-red-400 font-semibold">???</b></p>
+               <p id="item-03-desc" class="text-sm md:text-base">Conceito em desenvolvimento.</p>
+
+               <div class="bg-cover">
+                   <img id="item-03-img" src="" class="">
+               </div>
+
+               <p id="item-03-tools" class="text-sm md:text-base">Linguagens: ???.</p>
+           </div>
+
         </div>
--->
+    </div>
+
 </body>
 </html>
