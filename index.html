@@ -3,114 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/output.css" rel="stylesheet">
-    <title>Mormito Dev</title>
+    <link rel="stylesheet" href="/css/output.css">
+    <title>Mormito - Fullstack Dev</title>
 </head>
-<body class="bg-black font-montserrat">
+<body class="font-montserrat sitePallete">
 
-    <!-- Entrada | Foto + Intro -->
-    <div class="flex flex-col sm:flex-row w-full h-full justify-center items-center align-middle p-2 md:p-5 lg:p-10 gap-5 lg:gap-10 mt-5 mb-5">
-        <img class="w-2/5 h-2/5 lg:w-1/4 lg:h-1/4" src="imgs/me-resized.jpg">
+    <!--Header-->
+    <header class="w-full flex flex-row justify-center items-center gap-8 lg:gap-10 p-5 lg:p-10 border-b-2 dark:border-green-500">
+        <a href="https://www.linkedin.com/in/mormito/" class="a_ico">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <p>Linkedin</p>
+        </a>
 
-        <div class="flex flex-col justify-center items-center lg:items-start align-middle">
-            <h1 class="text-lg md:text-2xl lg:text-5xl text-white font-bold">Olá, me chamo Guilherme <a class="text-green-600">Mormito</a></h1>
-            <h2 class="text-md md:text-2xl lg:text-4xl text-white font-thin">Desenvolvedor Fullstack</h2>
+        <a href="https://github.com/Mormito/" class="a_ico">
+            <ion-icon name="logo-github"></ion-icon>
+            <p>Github</p>
+        </a>
+
+        <a href="https://github.com/Mormito?tab=repositories" class="a_ico">
+            <ion-icon name="logo-github"></ion-icon>
+            <p>Repositório</p>
+        </a>
+    </header>
+
+    <!--Foto + Olá  --- divBase? -->
+    <div class="w-full flex flex-col justify-center items-center mt-5 p-5 lg:p-10"> 
+        <div class="w-full flex flex-col md:flex-row justify-center items-center gap-10">
+            <img src="public/imgs/me-resized.jpg" class="w-8/12 h-8/12 md:w-4/12 md:h-4/12 lg:w-3/12 lg:h-3/12 rounded-4xl border-4">
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-base md:text-2xl lg:text-4xl font-semibold">Olá, me chamo Guilherme Mormito</h1>
+                <h2 class="md:text-xl lg:text-3xl font-extralight">Desenvolvedor Fullstack Júnior</h2>
+            </div>
         </div>
     </div>
-    <!-- Entrada | Fim-->
 
-    <!-- Sobre mim | Três paragrafos -->
-    <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-white">
-
-        <div class="flex flex-col w-3/4 h-3/4 lg:w-1/2 lg:h-1/2 justify-start items-start align-middle gap-2 lg:gap-4">
-
-            <h3 class="text-sm md:text-xl lg:text-2xl text-black font-bold">Sobre mim</h3>
-
-            <p class="pLista">- Atualmente curso o 6º semestre de Análise e Desenvolvimento de Sistemas (ADS) pela UNITAU. Possuo forte interesse e direcionamento de carreira na área de cibersegurança, contando com <a class="text-green-600" href="https://www.linkedin.com/in/mormito/details/certifications/" target="_blank">certificados</a> reconhecidos na área (CISCO e DESEC).</p>
-
-            <p class="pLista">- Na startup <a class="text-green-600" href="https://conselheirotutelarvirtual.com.br/site/" target="_blank">Conselheiro Tutelar Virtual (CTV)</a>, atuo coordenando a equipe, definindo escopos, analisando e desenvolvendo sistemas (Fullstack).</p>
-
-            <p class="pLista">- Tenho como objetivo profissional consolidar minha carreira neste campo, ampliando meu conhecimento técnico, e me tornando um especialista aplicado.</p>
+    <!--Sobre mim-->
+    <div class="divBase">
+        <div class="w-11/12 md:w-10/12 lg:w-8/12">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold">Sobre mim</h3>
+            <p class="pLista">- Atualmente curso o 6º semestre de Análise e Desenvolvimento de Sistemas (ADS) pela UNITAU. Possuo forte interesse e direcionamento de carreira na área de cibersegurança, contando com <a class="mark" href="https://www.linkedin.com/in/mormito/details/certifications/" target="_blank">certificados</a> reconhecidos na área (CISCO e DESEC).</p><br/>
+            <p class="pLista">- Na startup <a class="mark" href="https://conselheirotutelarvirtual.com.br/site/" target="_blank">Conselheiro Tutelar Virtual (CTV)</a>, atuo coordenando a equipe, definindo processos, analisando e desenvolvendo sistemas (Fullstack).</p><br/>
+            <p class="pLista">- Tenho como objetivo profissional consolidar minha carreira neste campo, ampliando meu conhecimento técnico, e me tornando um especialista aplicado.</p><br/>
+        </div>
         </div>
     </div>
-    <!-- Sobre mim | Fim-->
 
-    <!-- Tecnologias | Dois fieldsets-->
-     <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10">
+    <!--Stacks-->
+    <div class="divBase rsitePallete">
+        <h3 class="text-lg md:text-xl lg:text-2xl font-semibold">Principais Stacks</h3>
+        <div class="w-full flex flex-row justify-center items-center gap-3">
 
-        <h3 class="text-xl md:text-xl lg:text-3xl text-white font-bold">Tecnologias estudadas</h3>
-        
-        <div class="flex flex-col md:flex-row lg:flex-row w-full h-full justify-center items-center align-middle gap-4 p-4 lg:p-6">
-            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-green-600/90 text-sm md:text-xl lg:text-2xl text-white font-bold">
-                <legend>Front-end</legend>
-                        <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6 lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" alt="HTML">
-            
-                        <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CSS.svg" alt="CSS">
-            
-                        <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" alt="JavaScript">
-            
-                        <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/TailwindCSS-Dark.svg" alt="Tailwind">
-            </fieldset>
-            
-            <fieldset class="flex flex-row w-3/4 md:w-1/4 lg:w-1/4 justify-start items-start align-middle gap-2 lg:gap-4 p-2 md:p-4 lg:p-4 border-2 border-green-600/90 text-sm md:text-xl lg:text-2xl text-white font-bold">
-                <legend>Back-end</legend>
-                            <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Python-Dark.svg" alt="Python">
-            
-                            <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" alt="Java">
-            
-                            <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/PHP-Dark.svg" alt="PHP">
-            
-                            <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/PostgreSQL-Dark.svg" alt="PostgreSQL">
-            
-                            <img class="w-11/12 h-11/12 md:w-1/6 md:h-1/6  lg:w-1/10 lg:h-1/10" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/MySQL-Dark.svg" alt="MySQL">  
-            </fieldset>
+            <img src="public/icons/HTML.svg" alt="HTML5" class="stackSize">
+            <img src="public/icons/CSS.svg" alt="CSS" class="stackSize">
+            <img src="public/icons/Dark/TailwindCSS-Dark.svg" alt="TailwindCSS" class="hidden dark:block stackSize">
+            <img src="public/icons/Light/TailwindCSS-Light.svg" alt="TailwindCSS" class="block dark:hidden stackSize">
+            <img src="public/icons/Dark/PHP-Dark.svg" alt="PHP" class="hidden dark:block stackSize">
+            <img src="public/icons/Light/PHP-Light.svg" alt="PHP" class="block dark:hidden stackSize">
+            <img src="public/icons/Dark/Python-Dark.svg" alt="Python" class="hidden dark:block stackSize">
+            <img src="public/icons/Light/Python-Light.svg" alt="Python" class="block dark:hidden stackSize">
+            <img src="public/icons/Dark/MySQL-Dark.svg" alt="MySQL" class="hidden dark:block stackSize">
+            <img src="public/icons/Light/MySQL-Light.svg" alt="MySQL" class="block dark:hidden stackSize">
+            <!--Sim, eu já programei em Java, JS e até brinquei em C, já rodei banco no PostgreSQL e no SQLite.
+            Só achei que seria melhor colocar as minhas principais mesmo.-->
         </div>
-     </div>
+    </div>
 
-    <!-- Tecnologias | Fim-->
+    <!--Projetos-->
+    <div class="divBase">
+        <h3 class="text-lg md:text-xl lg:text-2xl font-semibold">Projetos Realizados</h3>
 
-    <!-- Zona portfólio  -->
-     <div class="flex flex-col w-full h-full justify-center items-center align-middle p-5 lg:p-10 bg-white">
+        <div class="w-full lg:w-8/12 flex flex-col md:flex-row justify-center items-stretch gap-3">
 
-        <h3 class="text-xl md:text-xl lg:text-3xl text-black font-bold text-center">Projetos desenvolvidos</h3>
+            <div class="w-full md:w-1/3 card">
+                <h4>Calculadora Fitness</h4>
+                <p>Uma calculadora de gasto calórico basal, TDEE e diversas modalidades de dieta.</p>
+                <img src="public/imgs/BMRCalculator-screenshot.png">
+            </div>
 
-        <div id="portGrid" class="grid grid-cols-1 md:grid-cols-3 w-full h-full md:w-3/4 md:h-3/4 mx-auto gap-3 lg:gap-8 p-4 lg:p-6">
-           
-            <div id="item-01-div" class="flex flex-col w-full h-full bg-black hover:shadow-md shadow-green-500 duration-300 text-white p-3 md:p-5 gap-1 md:gap-2">
-               <p id="item-01-title" class="font-semibold">Calculadora Fitness - Status <b class="text-green-400 font-semibold">concluido</b></p>
-               <p id="item-01-desc" class="text-sm md:text-base">Uma calculadora de gasto calórico basal, TDEE e diversas modalidades de dieta.</p>
+            <div class="w-full md:w-1/3 card">
+                <h4>MuscleDB</h4>
+                <p>Um sistema CRUD para registro de exericicios separados por grupo muscular.</p>
+                <img src="public/imgs/muscleDB-screenshot.png">
+            </div>
 
-               <div class="bg-cover">
-                   <img id="item-01-img" src="./imgs/item-01.png" class="">
-               </div>
-
-               <p id="item-01-tools" class="text-sm md:text-base">Linguagens: html5, tailwindcss, javascript.</p>
-           </div>
-
-            <div id="item-02-div" class="flex flex-col w-full h-full bg-black hover:shadow-md shadow-green-500 duration-300 text-white p-3 md:p-5 gap-1 md:gap-2">
-               <p id="item-02-title" class="font-semibold">Sistema DDoS - Status <b class="text-yellow-400 font-semibold">incompleto</b></p>
-               <p id="item-02-desc" class="text-sm md:text-base">Um sistema de ataque DDoS desenvolvido para trabalho de conclusão de curso.</p>
-
-               <div class="bg-cover">
-                   <img id="item-02-img" src="./imgs/item-02.png" class="">
-               </div>
-
-               <p id="item-02-tools" class="text-sm md:text-base">Linguagens: python, bibliotecas: scapy e threading.</p>
-           </div>
-
-            <div id="item-03-div" class="flex flex-col w-full h-full bg-black hover:shadow-md shadow-green-500 duration-300 text-white p-3 md:p-5 gap-1 md:gap-2">
-               <p id="item-03-title" class="font-semibold">Futuro Projeto - Status <b class="text-red-400 font-semibold">???</b></p>
-               <p id="item-03-desc" class="text-sm md:text-base">Conceito em desenvolvimento.</p>
-
-               <div class="bg-cover">
-                   <img id="item-03-img" src="" class="">
-               </div>
-
-               <p id="item-03-tools" class="text-sm md:text-base">Linguagens: ???.</p>
-           </div>
+            <div class="w-full md:w-1/3 card">
+                <h4>Sistema de ataque DDOS</h4>
+                <p>Um script desenvolvido para realizar ataques em ambientes controlados (TCC).</p>
+                <img src="public/imgs/DDOS-screenshot.png">
+            </div>
 
         </div>
     </div>
+
+    <!--Footer-->
+    <footer class="w-full h-6/12 flex flex-row justify-center items-center p-5 lg:p-10 border-t-2 dark:border-green-500 mt-5 lg:mt-10">
+        <p class="text-xs md:text-sm">All rights reserved © | Developed by Guilherme Mormito</p>
+    </footer>
 
 </body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!--
+<img src="public/icons/Dark/" class="hidden dark:block">
+<img src="public/icons/Light/" class="block dark:hidden">
+-->
+
 </html>

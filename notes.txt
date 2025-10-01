@@ -1,0 +1,13 @@
+<img src="public/icons/HTML.svg" class="lg:w-1/12">
+<img src="public/icons/CSS.svg" class="lg:w-1/12
+<img src="public/icons/Dark/TailwindCSS-Dark.svg" class="hidden dark:block lg:w-1/12">
+<img src="public/icons/Light/TailwindCSS-Light.svg" class="block dark:hidden lg:w-1/12
+<img src="public/icons/Dark/PHP-Dark.svg" class="hidden dark:block lg:w-1/12">
+<img src="public/icons/Light/PHP-Light.svg" class="block dark:hidden lg:w-1/12">
+<img src="public/icons/Dark/MySQL-Dark.svg" class="hidden dark:block lg:w-1/12">
+<img src="public/icons/Light/MySQL-Light.svg" class="block dark:hidden lg:w-1/12">
+<img src="public/icons/Dark/Python-Dark.svg" class="hidden dark:block lg:w-1/12">
+<img src="public/icons/Light/Python-Light.svg" class="block dark:hidden lg:w-1/12">
+
+
+npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
