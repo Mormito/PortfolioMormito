@@ -13,14 +13,14 @@ export default function Stacks(){
 
             <Image src="/icons/HTML.svg" alt="HTML5" width={1000} height={1000} className="stackSize" />
             <Image src="/icons/CSS.svg" alt="CSS" width={1000} height={1000} className="stackSize" />
-            <Image src="/icons/Dark/TailwindCSS-Dark.svg" alt="TailwindCSS" width={1000} height={1000} className="hidden dark:block stackSize" />
-            <Image src="/icons/Light/TailwindCSS-Light.svg" alt="TailwindCSS" width={1000} height={1000} className="block dark:hidden stackSize" />
-            <Image src="/icons/Dark/PHP-Dark.svg" alt="PHP" width={1000} height={1000} className="hidden dark:block stackSize" />
-            <Image src="/icons/Light/PHP-Light.svg" alt="PHP" width={1000} height={1000} className="block dark:hidden stackSize" />
-            <Image src="/icons/Dark/Python-Dark.svg" alt="Python" width={1000} height={1000} className="hidden dark:block stackSize" />
-            <Image src="/icons/Light/Python-Light.svg" alt="Python" width={1000} height={1000} className="block dark:hidden stackSize" />
-            <Image src="/icons/Dark/MySQL-Dark.svg" alt="MySQL" width={1000} height={1000} className="hidden dark:block stackSize" />
-            <Image src="/icons/Light/MySQL-Light.svg" alt="MySQL" width={1000} height={1000} className="block dark:hidden stackSize" />
+            <Image src="/icons/TailwindCSS-Dark.svg" alt="TailwindCSS" width={1000} height={1000} className="hidden dark:block stackSize" />
+            <Image src="/icons/TailwindCSS-Light.svg" alt="TailwindCSS" width={1000} height={1000} className="block dark:hidden stackSize" />
+            <Image src="/icons/PHP-Dark.svg" alt="PHP" width={1000} height={1000} className="hidden dark:block stackSize" />
+            <Image src="/icons/PHP-Light.svg" alt="PHP" width={1000} height={1000} className="block dark:hidden stackSize" />
+            <Image src="/icons/Python-Dark.svg" alt="Python" width={1000} height={1000} className="hidden dark:block stackSize" />
+            <Image src="/icons/Python-Light.svg" alt="Python" width={1000} height={1000} className="block dark:hidden stackSize" />
+            <Image src="/icons/MySQL-Dark.svg" alt="MySQL" width={1000} height={1000} className="hidden dark:block stackSize" />
+            <Image src="/icons/MySQL-Light.svg" alt="MySQL" width={1000} height={1000} className="block dark:hidden stackSize" />
         
         </div>
     </div>
