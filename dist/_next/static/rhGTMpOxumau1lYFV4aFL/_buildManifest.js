@@ -1,10 +1,15 @@
 self.__BUILD_MANIFEST = {
   "/_error": [
-    "./static/chunks/c9d8bdd97451bf92.js"
+    "./static/chunks/8418f1875b47b4b9.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/PortfolioMormito//_next/:path+",
+        "destination": "/PortfolioMormito/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
