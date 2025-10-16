@@ -1,6 +1,10 @@
 import "./globals.css";
 import { Montserrat } from 'next/font/google'
- 
+
+export const metadata = {
+  title: 'Mormito - Dev Fullstack',
+}
+
 const montserrat = Montserrat({
   subsets: ['latin'],
 })
