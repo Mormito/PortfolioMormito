@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --color-notblack: #232323;
+
+    --color-darkdefaultBg: #232323; /*Not Black*/
+    --color-defaultBg: #f0fdf4; /*Green-50*/
+
+    --color-darkdefaultText: #22c55e; /*Green-500*/
+    --color-defaultText: #232323; /*Off-white*/
+
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-montserrat);
+}
+
+.sitePallete{
+    @apply bg-defaultBg dark:bg-darkdefaultBg text-defaultText dark:text-darkdefaultText;
+}
+
+.rsitePallete{
+    @apply bg-darkdefaultBg dark:bg-darkdefaultText text-defaultBg dark:text-darkdefaultBg;
+}
+
+.pLista{
+    @apply text-xs lg:text-lg text-defaultText dark:text-defaultBg text-justify;
+}
+
+.mark{
+    @apply underline text-darkdefaultText;
+}
+
+.meImg{
+  @apply border-4 border-defaultText dark:border-darkdefaultText;
+}
+
+.divBase{
+    @apply w-full flex flex-col justify-center items-center mt-5 p-5 lg:p-10 gap-2 lg:gap-4;
+}
+
+.stackSize{
+    @apply w-8 md:w-10 lg:w-14 duration-300 ease-in-out scale-100 hover:scale-110;
+}
+
+.card{
+    @apply flex flex-col p-4 border-2 rounded-2xl gap-1;
+}
+
+.card h4{
+    @apply text-sm lg:text-xl font-semibold;
+}
+
+.card p{
+    @apply text-xs md:text-sm;
+}
+
+.card img{
+    @apply border border-defaultText dark:border-darkdefaultText rounded-xl;
+}
+
+.card button{
+    @apply border-2 hover:border-black hover:dark:border-green-500 py-1 px-4 font-light rounded-lg cursor-pointer duration-300 ease-in-out scale-100 hover:bg-black hover:text-green-50 hover:dark:bg-green-500  hover:dark:text-notblack;
+}
