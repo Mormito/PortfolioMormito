@@ -38,7 +38,7 @@ const project:Project[] = [
     {
     title: 'Calculadora Fitness', 
     text:'Uma calculadora de gasto calórico basal, TDEE e diversas modalidades de dieta.', 
-    img:'/imgs/BMRCalculator-screenshot.png', 
+    img:'/PortfolioMormito/imgs/BMRCalculator-screenshot.png', 
     alt:'Foto: Calculadora BMR', 
     repo:'https://github.com/Mormito/BMR-Calculator', 
     site:'https://mormito.github.io/BMR-Calculator/'
@@ -47,7 +47,7 @@ const project:Project[] = [
     {
     title: 'MuscleDB', 
     text:'Um sistema CRUD para registro de exericicios separados por grupo muscular.', 
-    img:'/imgs/muscleDB-screenshot.png', 
+    img:'/PortfolioMormito/imgs/muscleDB-screenshot.png', 
     alt:'Foto: Muscle Database', 
     repo:'https://github.com/Mormito/MuscleDB', 
     site:''
@@ -56,7 +56,7 @@ const project:Project[] = [
     {
     title: 'Sistema de ataque DDOS', 
     text:'Um script desenvolvido para realizar ataques em ambientes controlados (TCC).', 
-    img:'/imgs/DDOS-screenshot.png', 
+    img:'/PortfolioMormito/imgs/DDOS-screenshot.png', 
     alt:'Foto: Denial Of Service System (DDOS)', 
     repo:'https://github.com/Mormito/TCC-DenialOfService', 
     site:''
