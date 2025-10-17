@@ -24,7 +24,7 @@ const links:ExternalLink[] = [
 
 export default function Header(){
     return (
-        <div className="w-full flex flex-row justify-center items-center gap-8 lg:gap-10 p-5 lg:p-10 border-b-2 dark:border-green-500">
+        <div className="w-full flex flex-row justify-center items-center gap-8 lg:gap-10 p-5 lg:p-10 border-b-2 dark:darkdefaultText">
 
             {links.map((l) => (
                 <ExternalLinkBtn key={l.url} url={l.url} Icon={l.Icon} title={l.title} />
