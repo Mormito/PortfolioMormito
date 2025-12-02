@@ -5,9 +5,9 @@
     --color-notblack: #232323;
 
     --color-darkdefaultBg: #232323; /*Not Black*/
-    --color-defaultBg: #f0fdf4; /*Green-50*/
+    --color-defaultBg: #f0f9ff; 
 
-    --color-darkdefaultText: #22c55e; /*Green-500*/
+    --color-darkdefaultText: #00bcff; 
     --color-defaultText: #232323; /*Off-white*/
 
     --font-montserrat: "Montserrat", sans-serif;
@@ -64,3 +64,17 @@ body {
 .card button{
     @apply border-2 hover:border-black hover:dark:border-green-500 py-1 px-4 font-light rounded-lg cursor-pointer duration-300 ease-in-out scale-100 hover:bg-black hover:text-green-50 hover:dark:bg-green-500  hover:dark:text-notblack;
 }
+
+/*
+@theme{
+    --color-notblack: #232323;
+
+    --color-darkdefaultBg: #232323; 
+    --color-defaultBg: #f0fdf4;
+
+    --color-darkdefaultText: #22c55e;
+    --color-defaultText: #232323; 
+
+    --font-montserrat: "Montserrat", sans-serif;
+}
+*/
