@@ -15,14 +15,15 @@ export default function Stacks(){
 
     <Image src={`${basePath}/icons/HTML.svg`} alt="HTML5" width={1000} height={1000} className="stackSize" />
     <Image src={`${basePath}/icons/CSS.svg`} alt="CSS" width={1000} height={1000} className="stackSize" />
+    <Image src={`${basePath}/icons/Typescript.svg`} alt="Typesript" width={1000} height={1000} className="stackSize" />
+    <Image src={`${basePath}/icons/NextJS-Dark.svg`} alt="NextJS" width={1000} height={1000} className="hidden dark:block stackSize" />
+    <Image src={`${basePath}/icons/NextJS-Light.svg`} alt="NextJS" width={1000} height={1000} className="block dark:hidden stackSize" />
     <Image src={`${basePath}/icons/TailwindCSS-Dark.svg`} alt="TailwindCSS" width={1000} height={1000} className="hidden dark:block stackSize" />
     <Image src={`${basePath}/icons/TailwindCSS-Light.svg`} alt="TailwindCSS" width={1000} height={1000} className="block dark:hidden stackSize" />
-    <Image src={`${basePath}/icons/PHP-Dark.svg`} alt="PHP" width={1000} height={1000} className="hidden dark:block stackSize" />
-    <Image src={`${basePath}/icons/PHP-Light.svg`} alt="PHP" width={1000} height={1000} className="block dark:hidden stackSize" />
     <Image src={`${basePath}/icons/Python-Dark.svg`} alt="Python" width={1000} height={1000} className="hidden dark:block stackSize" />
     <Image src={`${basePath}/icons/Python-Light.svg`} alt="Python" width={1000} height={1000} className="block dark:hidden stackSize" />
-    <Image src={`${basePath}/icons/MySQL-Dark.svg`} alt="MySQL" width={1000} height={1000} className="hidden dark:block stackSize" />
-    <Image src={`${basePath}/icons/MySQL-Light.svg`} alt="MySQL" width={1000} height={1000} className="block dark:hidden stackSize" />
+    <Image src={`${basePath}/icons/PostgreSQL-Dark.svg`} alt="PostgreSQL" width={1000} height={1000} className="hidden dark:block stackSize" />
+    <Image src={`${basePath}/icons/PostgreSQL-Light.svg`} alt="PostgreSQL" width={1000} height={1000} className="block dark:hidden stackSize" />
 
         </div>
     </div>
