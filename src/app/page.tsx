@@ -4,6 +4,7 @@ import Stacks from "@/components/divStacks";
 import SobreMim from "@/components/divText";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { FormEmail } from "@/components/mail";
 import { Linkedin } from "lucide-react";
 
 
@@ -16,6 +17,7 @@ export default function Home(){
     <SobreMim></SobreMim>
     <Stacks></Stacks>
     <Projetos></Projetos>
+    <FormEmail />
     
     <Footer></Footer>
     </div>
