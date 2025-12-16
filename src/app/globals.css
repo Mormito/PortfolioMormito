@@ -17,6 +17,14 @@ body {
   font-family: var(--font-montserrat);
 }
 
+input[type="text"], input[type="email"]{
+    @apply border-b py-1 px-2 placeholder:italic outline-none focus:border-b-2 duration-75 ease-in;
+}
+
+textarea {
+    @apply border rounded-xl p-2 placeholder:italic outline-none;
+}
+
 .sitePallete{
     @apply bg-defaultBg dark:bg-darkdefaultBg text-defaultText dark:text-darkdefaultText;
 }
@@ -62,7 +70,8 @@ body {
 }
 
 .card button{
-    @apply border-2 hover:border-black hover:dark:border-green-500 py-1 px-4 font-light rounded-lg cursor-pointer duration-300 ease-in-out scale-100 hover:bg-black hover:text-green-50 hover:dark:bg-green-500  hover:dark:text-notblack;
+    @apply border-2 hover:border-darkdefaultBg hover:dark:border-darkdefaultText py-1 px-4 font-light rounded-lg cursor-pointer duration-300 ease-in-out scale-100 
+    hover:bg-darkdefaultBg hover:text-defaultBg hover:dark:bg-darkdefaultText hover:dark:text-darkdefaultBg;
 }
 
 /*
