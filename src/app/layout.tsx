@@ -1,5 +1,7 @@
+import Header from "@/components/header";
 import "./globals.css";
 import { Montserrat } from 'next/font/google'
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: 'Mormito - Dev Fullstack',
@@ -17,9 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`w-full h-full sitePallete ${montserrat.className}`}
+        className={`w-full min-h-screen flex flex-col sitePallete ${montserrat.className}`}
       >
-        {children}
+        <Header />
+
+        <main className="flex-1">
+          {children}
+        </main>
+        
+        <Footer />
       </body>
     </html>
   );
