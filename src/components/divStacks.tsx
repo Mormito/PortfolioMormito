@@ -15,7 +15,7 @@ export default function Stacks(){
 
     <Image src={`${basePath}/icons/HTML.svg`} alt="HTML5" width={1000} height={1000} className="stackSize" />
     <Image src={`${basePath}/icons/CSS.svg`} alt="CSS" width={1000} height={1000} className="stackSize" />
-    <Image src={`${basePath}/icons/Typescript.svg`} alt="Typesript" width={1000} height={1000} className="stackSize" />
+    <Image src={`${basePath}/icons/TypeScript.svg`} alt="TypeScript" width={1000} height={1000} className="stackSize" />
     <Image src={`${basePath}/icons/NextJS-Dark.svg`} alt="NextJS" width={1000} height={1000} className="hidden dark:block stackSize" />
     <Image src={`${basePath}/icons/NextJS-Light.svg`} alt="NextJS" width={1000} height={1000} className="block dark:hidden stackSize" />
     <Image src={`${basePath}/icons/TailwindCSS-Dark.svg`} alt="TailwindCSS" width={1000} height={1000} className="hidden dark:block stackSize" />
